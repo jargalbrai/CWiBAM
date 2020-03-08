@@ -24,7 +24,14 @@ header {
     width: 50%;
     margin: 0 25%;
 }
-h1 {
+
+a {
+    color: #d82f2f;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 1.25em;
+}
+.site-title {
     text-align: center;
     background-color: #f33434;
     border-radius: 50%;
@@ -34,11 +41,83 @@ h1 {
 
 .menu-nav {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
 }
 
 .menu-nav li{
-    /* text-align: center; */
     display: inline-block;
+    margin-bottom: .25em;
+}
+
+.recipe-title {
+    display: flex;
+    justify-content: center;
+    margin: .5em 0;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ingredients-list {
+    display: flex;
+    flex-direction: column;
+    padding: .25em 0;
+    margin: .25em 2em;
+    align-items: center;
+    list-style: none;
+}
+
+.ingredients-list li {
+    padding-bottom: .5em;
+}
+
+.ingredients-sublist {
+    /* font-size: 1.75em; */
+}
+
+.steps {
+    margin: 0 25% 0 31%;
+}
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 1.5em;
+    align-items: flex-start;
+}
+
+.steps-list li {
+    padding-bottom: .5em;
+}
+
+footer {
+    margin: 0 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links {
+    font-size: 1.25em;
+    color: #d82f2f;
+    margin: 0 4em 1em 4em;
+    text-decoration: none;
+}
+
+.recipe-index__title {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-index {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-index ul {
+    list-style: none;
+}
+
+.recipe-index ul li {
+    margin: .25em 0;
 }

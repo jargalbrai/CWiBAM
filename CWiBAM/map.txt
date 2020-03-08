@@ -2,3 +2,7 @@ Header:
 New Recipe
 Recipe List
 Search by Ingredients
+
+Recipe landing page: links to recipes
+
+Recipes: brief description, ingredients list, steps list, source link
