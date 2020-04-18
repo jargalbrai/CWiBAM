@@ -1,0 +1,56 @@
+/*----Media Queries----*/
+
+/* Big Tablet to Computer: 1024 - 1200px */
+@media only screen and (max-width: 1200px) {
+    header {
+        width: 100vl;
+        margin: 0 25%;
+    }
+    .site-title {
+        font-size: 2em;
+    }
+    .menu-nav {
+        font-size: 1.5em;
+    }
+    .recipe-title {
+        font-size: 1.5em;
+    }
+    .ingredients {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ingredients-list {
+        font-size: 1em;
+        align-items: center;
+        margin: .25em 1em;
+    }
+    .steps {
+        margin: 0 10%;
+    }
+    .footer-links {
+        margin: 0 5% 1em 5%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .site-title {
+        font-size: 1.25em;
+    }
+    .ingredients {
+        align-items: baseline;
+    }
+    .ingredients-list {
+        align-items: baseline;
+    }
+    .steps-list {
+        margin: 1em 1em;
+
+    }
+    .footer {
+        margin: 0 10%;
+    }
+    .footer-links {
+        margin: 0 1em 1em 1em;
+    }
+}
